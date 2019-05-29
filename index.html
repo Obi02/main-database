@@ -3,7 +3,7 @@ $action = $_GET["action"];
 $myText = $_POST["mytext"];
 
 if($action = "save") {
-  $targetFolder = "/tree/master/src";
+  $targetFolder = "/tree/master";
   file_put_contents($targetFolder."mytext.txt", $myText);
 }
 ?>  
